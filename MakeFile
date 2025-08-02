@@ -1,11 +1,11 @@
-dependencies:
+install:
 	npm install
 
 dev:
 	npm run dev
 
-build:
+build:		
 	npm run build
 
-preview:
+preview:	
 	npm run preview
