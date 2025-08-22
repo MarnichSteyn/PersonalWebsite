@@ -1,0 +1,300 @@
+.education-page {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.education-page h1 {
+    color: #24292E;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0366D6;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.education-item {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 40px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #0366D6;
+    min-height: 85vh; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.education-header h2 {
+    color: #24292E;
+    font-size: 2em; 
+    margin: 0;
+    flex: 1;
+}
+
+.education-year {
+    background: #0366D6;
+    color: white;
+    padding: 12px 20px; 
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1em; 
+}
+
+.institution {
+    color: #24292E;
+    font-size: 1.5em; 
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.location {
+    color: #586069;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 1.1em; 
+}
+
+.education-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px;
+    height: 100%;
+}
+
+
+.achievements-section h4 {
+    color: #24292E;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #0366D6;
+    padding-bottom: 10px;
+}
+
+.achievements-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.achievements-list li {
+    background: #F6F8FA;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #24292E;
+    border-left: 3px solid #0366D6; 
+    transition: all 0.3s ease;
+    font-size: 1.1em;
+}
+
+.achievements-list li:hover {
+    background: #E8F5E8; 
+    transform: translateY(-2px);
+}
+.education-item:first-child .education-details {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto; 
+    gap: 40px;
+}
+
+.education-item:first-child .grade-section {
+    grid-column: 1 / -1; 
+}
+
+.education-item:first-child .subjects-section {
+    grid-column: 1 / -1; 
+}
+
+.education-item:first-child .activities-section {
+    grid-column: 1;
+}
+
+.education-item:first-child .achievements-section {
+    grid-column: 2;
+}
+
+.grade-section h4,
+.activities-section h4,
+.subjects-section h4,
+.university-averages h4,
+.university-subjects h4 {
+    color: #24292E;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #0366D6;
+    padding-bottom: 10px;
+}
+
+.grade-achievement {
+    display: flex;
+    gap: 30px; 
+    align-items: center;
+    justify-content: space-between; 
+    background: #F6F8FA;
+    padding: 25px; 
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.average {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #24292E;
+}
+
+.distinctions {
+    background: #F6F8FA; 
+    color: #24292E; 
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1em;
+    border: 2px solid #E1E4E8;
+    margin-left: auto;
+}
+
+.activities-list,
+.subjects-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px; 
+}
+
+.activities-list li,
+.subjects-list li {
+    background: #F6F8FA;
+    padding: 15px 20px; 
+    border-radius: 4px;
+    color: #24292E;
+    border-left: 3px solid #0366D6;
+    transition: all 0.3s ease;
+    font-size: 1.1em; 
+}
+
+.activities-list li:hover,
+.subjects-list li:hover {
+    background: #E1F5FE;
+    transform: translateY(-2px);
+}
+
+.yearly-averages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.year-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F6F8FA;
+    padding: 22px 28px; 
+    border-radius: 4px;
+    border-left: 4px solid #0366D6;
+}
+
+.year-label {
+    font-weight: 600;
+    color: #24292E;
+    font-size: 1.2em; 
+}
+
+.year-average {
+    font-size: 1.6em; 
+    font-weight: 700;
+    color: #24292E;
+}
+
+/* University subjects styling */
+.semester-section {
+    margin-bottom: 25px; 
+}
+
+.semester-section h5 {
+    color: #0366D6;
+    font-size: 1.2em; 
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: 3px solid #0366D6;
+}
+
+
+.university-subjects {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+
+.university-subjects::-webkit-scrollbar {
+    width: 6px;
+}
+
+.university-subjects::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.university-subjects::-webkit-scrollbar-thumb {
+    background: #0366D6;
+    border-radius: 4px;
+}
+
+.university-subjects::-webkit-scrollbar-thumb:hover {
+    background: #0256c7;
+}
+
+@media (max-width: 1200px) {
+    .education-details {
+        grid-template-columns: 1fr; 
+        gap: 30px;
+    }
+    
+    .education-item:nth-child(2) .education-details {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .education-page {
+        padding: 0 10px;
+    }
+    
+    .education-item {
+        padding: 25px;
+        min-height: 80vh;
+    }
+    
+    .education-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .education-year {
+        align-self: flex-start;
+    }
+    
+    .grade-achievement {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}

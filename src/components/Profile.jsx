@@ -14,22 +14,22 @@ function Profile() {
                         <h2>Marnich J Steyn</h2>
                         
                         <div className="about_intro">
-                            <p></p>
+                            <p> 3rd Year B.Sc student at Stellenbosch</p>
                         </div>
 
                         <div className="subsection">
                             <h3>Interests</h3>
                             <ul>
-                                <li>Interest 1</li>
-                                <li>Interest 2</li>
-                                <li>Interest 3</li>
-                                <li>Interest 4</li>
+                                <li>Machine Learning and AI</li>
+                                <li>Gaming and Sports</li>
+                                <li>Day Trading</li>
+                                <li>Gym and Fitness</li>
                             </ul>
                         </div>
 
                         <div className="subsection">
                             <h3>The Future</h3>
-                            <p></p>
+                            <p>In the future I hope to further improve my skill in trading, aswell as find a software job in the data/finance fields and build up a career path to become a full stack data engineer in a foreign country if possible</p>
                         </div>
                     </div>
                 </div> 

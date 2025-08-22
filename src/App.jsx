@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Profile from './components/Profile';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout';
+import Education from './pages/Education'; 
 
 function App() {
   return (
@@ -10,11 +10,12 @@ function App() {
       <div className="app">
         <Layout>
           <Routes>
-            <Route path="/education" element={<div>Education Page</div>} />
+            <Route path="/" element={<Navigate to="/education" replace />} />
+            <Route path="/education" element={<Education />} />
             <Route path="/experience" element={<div>Experience Page</div>} />
             <Route path="/blog" element={<div>Blog Page</div>} />
           </Routes>
-          </Layout>
+        </Layout>
       </div>
     </BrowserRouter>
   );
