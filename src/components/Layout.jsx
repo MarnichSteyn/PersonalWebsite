@@ -8,9 +8,9 @@ function Layout({ children }) {
             <Navigation />
             <div className="content-container">
                 <Profile />
-                <div className="main-content">
+                <main className="main-content">
                     {children}
-                </div>
+                </main>
             </div>
         </div>
     );

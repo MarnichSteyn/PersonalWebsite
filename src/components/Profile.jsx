@@ -1,7 +1,20 @@
-import React from "react";
 import '../styles/Profile.css';
+import { useAuth } from "../context/Authentication";
+import { useNavigate } from "react-router-dom";
 
 function Profile() {
+    const { isAuthenticated, logout } = useAuth();
+    const navigate = useNavigate();
+
+    const handleLoginClick = () => {
+        navigate('/login');
+    };
+
+    const handleLogoutClick = () => {
+        logout();
+        navigate('/education');
+    };
+
     return (
         <div className="profile_container">
             <div className="sidebar">
@@ -33,6 +46,13 @@ function Profile() {
                         </div>
                     </div>
                 </div> 
+                <div className="sidebar-footer">
+                    {isAuthenticated ? (
+                        <button onClick={handleLogoutClick} className="login-button">Logout</button>
+                    ) : (
+                        <button onClick={handleLoginClick} className="login-button">Login</button>
+                    )}
+                </div>
             </div>
         </div>
     );

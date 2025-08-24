@@ -13,9 +13,10 @@
     width: 400px; 
     background: linear-gradient(135deg, #FFFFFF 0%, #F8F9FA 100%);
     position: sticky;
-    top: 0;
-    height: 100vh;
-    overflow-y: auto;
+    top: 61px; 
+    height: calc(100vh - 61px);
+    display: flex;
+    flex-direction: column;
     padding: 30px; 
     border-right: 1px solid #E1E4E8;
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
@@ -30,9 +31,11 @@
 }
 
 .sidebar-content {
-    display: flex;
+     display: flex;
     flex-direction: column;
     gap: 30px;
+    overflow-y: auto;
+    flex-grow: 1;
 }
 
 .pfp_container {
@@ -40,6 +43,29 @@
     justify-content: center;
     margin-bottom: 25px;
     margin-top: 0; 
+}
+
+.sidebar-footer {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #e1e4e8;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0366D6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
 }
 
 .profile_photo {
