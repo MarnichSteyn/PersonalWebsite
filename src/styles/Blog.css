@@ -1,0 +1,174 @@
+.blog-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0366D6;
+    padding-bottom: 15px;
+}
+
+.blog-header h1 {
+    color: #24292E;
+    font-size: 2.5em;
+}
+
+.add-post-button {
+    background-color: #28A745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-post-button:hover {
+    background-color: #218838;
+}
+
+.blog-list {
+    display: grid;
+    gap: 30px;
+}
+
+.blog-post-item {
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #0366D6;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post-content {
+    padding: 25px 30px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.blog-post-content h2 {
+    color: #24292E;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.blog-post-content p {
+    color: #586069;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.blog-post-content span {
+    color: #586069;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.blog-post-actions {
+    display: flex;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: #F6F8FA;
+    border-top: 1px solid #E1E4E8;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.blog-post-actions button {
+    padding: 8px 16px;
+    border: 1px solid #0366D6;
+    background-color: #FFFFFF;
+    color: #0366D6;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.blog-post-actions button:hover {
+    background-color: #0366D6;
+    color: #FFFFFF;
+}
+
+.blog-post-actions button:last-child {
+    border-color: #d73a49;
+    color: #d73a49;
+}
+
+.blog-post-actions button:last-child:hover {
+    background-color: #d73a49;
+    color: #FFFFFF;
+}
+
+/* Modal Content Styles */
+.blog-view-modal h1 {
+    font-size: 2.2em;
+    color: #24292E;
+    margin-bottom: 10px;
+}
+
+.blog-view-modal span {
+    display: block;
+    font-style: italic;
+    color: #586069;
+    margin-bottom: 25px;
+}
+
+.blog-view-modal p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #24292E;
+    white-space: pre-wrap;
+}
+
+/* Form Styles */
+.blog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog-form h2 {
+    text-align: center;
+    color: #24292E;
+    margin-bottom: 10px;
+}
+
+.blog-form input,
+.blog-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #E1E4E8;
+    border-radius: 6px;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+.blog-form textarea {
+    min-height: 250px;
+    resize: vertical;
+}
+
+.blog-form button {
+    padding: 12px;
+    background-color: #0366D6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blog-form button:hover {
+    background-color: #0056b3;
+}

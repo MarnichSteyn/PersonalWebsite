@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../styles/Profile.css';
-import { useAuth } from "../context/Authentication";
+import { useAuth } from "../context/Authentication.jsx";
 import { useNavigate } from "react-router-dom";
 
 function Profile() {
