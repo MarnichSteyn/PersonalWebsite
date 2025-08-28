@@ -104,7 +104,7 @@
 }
 
 .achievements-list li:hover {
-    background: #E8F5E8; 
+    background: #E1F5FE; 
     transform: translateY(-2px);
 }
 .education-item:first-child .education-details {

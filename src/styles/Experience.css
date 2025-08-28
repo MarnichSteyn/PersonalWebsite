@@ -76,7 +76,6 @@
     height: 100%;
 }
 
-/* Section Styles */
 .projects-section h4,
 .skills-section h4,
 .leadership-section h4,
@@ -92,7 +91,6 @@
     padding-bottom: 10px;
 }
 
-/* Project item styling */
 .project-item {
     background: #F6F8FA;
     padding: 20px;
@@ -165,24 +163,22 @@
     transform: translateY(-2px);
 }
 
-/* Special styling for goals section */
 .goals-list li {
-    border-left-color: #0366D6; /* Green for goals */
+    border-left-color: #0366D6; 
 }
 
 .longterm-list li {
-    border-left-color: #0366D6; /* Purple for long-term vision */
+    border-left-color: #0366D6;
 }
 
 .goals-list li:hover {
-    background: #E8F5E8;
+    background: #E1F5FE;
 }
 
 .longterm-list li:hover {
-    background: #F3E8FF;
+    background: #E1F5FE;
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
     .experience-details {
         grid-template-columns: 1fr; 

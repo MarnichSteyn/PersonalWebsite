@@ -49,12 +49,14 @@
     margin-top: auto;
     padding-top: 20px;
     border-top: 1px solid #e1e4e8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.login-button {
+.login-button, .edit-button {
     width: 100%;
     padding: 12px;
-    background-color: #0366D6;
     color: white;
     border: none;
     border-radius: 6px;
@@ -64,8 +66,20 @@
     transition: background-color 0.3s ease;
 }
 
+.login-button {
+    background-color: #0366D6;
+}
+
 .login-button:hover {
     background-color: #0056b3;
+}
+
+.edit-button {
+    background-color: #28A745;
+}
+
+.edit-button:hover {
+    background-color: #218838;
 }
 
 .profile_photo {
@@ -142,10 +156,26 @@
     font-size: 1em;
 }
 
-.main-content {
-    flex: 1;
-    padding: 30px;
-    background-color: #FAFBFC;
-    color: #24292E;
-    min-height: 100vh;
+.edit-input, .edit-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: inherit;
+}
+
+.edit-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.edit-interest-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
