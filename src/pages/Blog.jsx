@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useAuth } from '../context/Authentication.jsx';
 import Modal from '../components/Modal';
 import '../styles/Blog.css';
@@ -19,12 +19,21 @@ const initialPosts = [
 ];
 
 function Blog() {
+    
     const { isAuthenticated } = useAuth();
-    const [posts, setPosts] = useState(initialPosts);
+    const [posts, setPosts] = useState(() => {
+        const savedPosts = localStorage.getItem('blogPosts');
+        return savedPosts ? JSON.parse(savedPosts) : initialPosts;
+    });
+
     const [isViewModalOpen, setIsViewModalOpen] = useState(false);
     const [isFormModalOpen, setIsFormModalOpen] = useState(false);
     const [selectedPost, setSelectedPost] = useState(null);
     const [editingPost, setEditingPost] = useState(null);
+
+    useEffect(() => {
+        localStorage.setItem('blogPosts', JSON.stringify(posts));
+    }, [posts]);
 
     const handleViewPost = (post) => {
         setSelectedPost(post);

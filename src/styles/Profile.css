@@ -31,7 +31,7 @@
 }
 
 .sidebar-content {
-     display: flex;
+    display: flex;
     flex-direction: column;
     gap: 30px;
     overflow-y: auto;
@@ -43,6 +43,11 @@
     justify-content: center;
     margin-bottom: 25px;
     margin-top: 0; 
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebar-footer {
@@ -52,6 +57,51 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.profile_photo {
+    width: 180px; 
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0366D6;
+    box-shadow: 0 4px 12px rgba(3, 102, 214, 0.15);
+}
+
+.pfp-edit-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(36, 41, 46, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pfp-edit-overlay:hover {
+    background-color: rgba(36, 41, 46, 0.75);
+}
+
+.pfp-edit-button {
+    display: block;
+    padding: 8px 12px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pfp-edit-icon {
+    color: white;
+}
+
+.pfp-edit-overlay input[type="file"] {
+   display: none;
 }
 
 .login-button, .edit-button {
