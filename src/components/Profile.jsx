@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import '../styles/Profile.css';
+import pfp from '../assets/logangster.JPG'
 import { useAuth } from "../context/Authentication.jsx";
 import { useNavigate } from "react-router-dom";
 
@@ -9,11 +10,13 @@ function Profile() {
     const [isEditing, setIsEditing] = useState(false);
 
     const [profilePhoto, setProfilePhoto] = useState(() => {
-        return localStorage.getItem('profilePhoto') || "https://via.placeholder.com/180";
+        return localStorage.getItem('profilePhoto') || pfp;
     });
+
     const [about, setAbout] = useState(() => {
         return localStorage.getItem('about') || "3rd Year B.Sc student at Stellenbosch";
     });
+
     const [interests, setInterests] = useState(() => {
         const savedInterests = localStorage.getItem('interests');
         return savedInterests ? JSON.parse(savedInterests) : [
@@ -42,6 +45,7 @@ function Profile() {
     useEffect(() => {
         localStorage.setItem('future', future);
     }, [future]);
+    
     const handleLoginClick = () => {
         navigate('/login');
     };

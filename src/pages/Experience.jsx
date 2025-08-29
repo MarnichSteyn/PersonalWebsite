@@ -54,20 +54,11 @@ function Experience() {
                         <div className="learning-section">
                             <h4>Self-Learning Initiatives:</h4>
                             <ul className="learning-list">
-                                <li>Built personal coding projects on GitHub</li>
-                                <li>Participated in coding challenges and hackathons</li>
+                                <li>Currently building website for a flooring company</li>
+                                <li>Participated in coding challenges and hackathons (Leetcode)</li>
+                                <li>Work in Python Libraries like Tensorflow</li>
                                 <li>Studied trading strategies and market analysis</li>
-                                <li>Developed fitness and nutrition programs</li>
-                            </ul>
-                        </div>
-                        
-                        <div className="certifications-section">
-                            <h4>Certifications & Achievements:</h4>
-                            <ul className="certifications-list">
-                                <li>Online JavaScript Fundamentals Course</li>
-                                <li>HTML/CSS Responsive Design Certificate</li>
-                                <li>Python Programming Bootcamp</li>
-                                <li>Git & GitHub Mastery Course</li>
+                                <li>Developed fitness and nutrition programs for myself</li>
                             </ul>
                         </div>
                     </div>
@@ -85,10 +76,10 @@ function Experience() {
                         <div className="goals-section">
                             <h4>Short-term Goals:</h4>
                             <ul className="goals-list">
-                                <li>Secure software development internship for 2025</li>
-                                <li>Complete advanced courses in data science</li>
+                                <li>Secure honours permittance for 2025</li>
+                                <li>Complete advanced courses in data science with Python</li>
                                 <li>Build portfolio of full-stack web applications</li>
-                                <li>Contribute to open-source projects</li>
+                                <li>Implement Indicators using coding for technical analysis</li>
                             </ul>
                         </div>
                         
@@ -97,8 +88,7 @@ function Experience() {
                             <ul className="longterm-list">
                                 <li>Full-stack data engineer role in international company</li>
                                 <li>Expertise in machine learning and AI applications</li>
-                                <li>Combination of trading knowledge with tech skills</li>
-                                <li>Leadership position in innovative tech solutions</li>
+                                <li>Combine Python knowledge with trading to write fully operable robots used in trading</li>
                             </ul>
                         </div>
                     </div>

@@ -85,7 +85,7 @@
 
 .blog-tag {
     background: #0366D6;
-    color: #fff;
+    color: #fff !important;
     padding: 4px 12px;
     border-radius: 12px;
     font-size: 0.95em;
