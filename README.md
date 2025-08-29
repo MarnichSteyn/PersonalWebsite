@@ -7,5 +7,8 @@ A Personal website built using React.js in a Vite app, featuring a profile, educ
 ## File Layout
 
 ## AI Usage
-
 Used AI to create fake blog posts as examples
+
+## Citations
+https://www.freecodecamp.org/news/how-to-use-localstorage-with-react-hooks-to-set-and-get-items/ Used for learning how to incorporate localStorage to make items persist after refreshing.
+
