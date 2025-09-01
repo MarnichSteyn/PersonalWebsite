@@ -7,7 +7,6 @@ function Education() {
             <h1>Education</h1>
             
             <div className="education-container">
-                {/* High School Section */}
                 <div className="education-item">
                     <div className="education-header">
                         <h2>High School</h2>
@@ -26,16 +25,16 @@ function Education() {
                         </div>
 
                         <div className="subjects-section">
-                            <h4>School Subjects:</h4>
+                            <h4>School Subjects & Marks:</h4>
                             <ul className="subjects-list">
-                                <li>Mathematics</li>
-                                <li>Computer Application Technology</li>
-                                <li>Information Technology</li>
-                                <li>English First Additional Language</li>
-                                <li>Afrikaans Home Language</li>
-                                <li>Life Orientation</li>
-                                <li>Accounting</li>
-                                <li>Business Studies</li>
+                                <li>Mathematics: <span className="subject-mark">84%</span></li>
+                                <li>Computer Application Technology: <span className="subject-mark">96%</span></li>
+                                <li>Information Technology: <span className="subject-mark">86%</span></li>
+                                <li>English First Additional Language: <span className="subject-mark">88%</span></li>
+                                <li>Afrikaans Home Language: <span className="subject-mark">82%</span></li>
+                                <li>Life Orientation: <span className="subject-mark">80%</span></li>
+                                <li>Accounting: <span className="subject-mark">90%</span></li>
+                                <li>Business Studies: <span className="subject-mark">98%</span></li>
                             </ul>
                         </div>
                         
@@ -59,7 +58,6 @@ function Education() {
                     </div>
                 </div>
 
-                {/* University Section - unchanged */}
                 <div className="education-item">
                     <div className="education-header">
                         <h2>Bachelor of Science in Computer Science</h2>
@@ -74,11 +72,15 @@ function Education() {
                             <div className="yearly-averages">
                                 <div className="year-item">
                                     <span className="year-label">First Year (2023):</span>
-                                    <span className="year-average">71%</span>
+                                    <span className="year-average">68,7%</span>
                                 </div>
                                 <div className="year-item">
                                     <span className="year-label">Second Year (2024):</span>
-                                    <span className="year-average">67%</span>
+                                    <span className="year-average">65,5%</span>
+                                </div>
+                                <div className="year-item">
+                                    <span className="year-label">Third Year(thus far) (2025):</span>
+                                    <span className="year-average">66%</span>
                                 </div>
                             </div>
                         </div>
@@ -89,50 +91,50 @@ function Education() {
                             <div className="semester-section">
                                 <h5>Semester 1 (2023):</h5>
                                 <ul className="subjects-list">
-                                    <li>Computer Science 114</li>
-                                    <li>Mathematics 114</li>
-                                    <li>Probability and Statistics 114</li>
-                                    <li>Science in Context 174</li>
+                                    <li>Computer Science 114: <span className="subject-mark">77%</span></li>
+                                    <li>Mathematics 114: <span className="subject-mark">71%</span></li>
+                                    <li>Probability and Statistics 114: <span className="subject-mark">73%</span></li>
+                                    <li>Science in Context 174: <span className="subject-mark">69%</span></li>
                                 </ul>
                             </div>
 
                             <div className="semester-section">
                                 <h5>Semester 2 (2023):</h5>
                                 <ul className="subjects-list">
-                                    <li>Computer Science 144</li>
-                                    <li>Mathematics 144</li>
-                                    <li>Applied Mathematics 144</li>
-                                    <li>Science in Context 174</li>
+                                    <li>Computer Science 144: <span className="subject-mark">75%</span></li>
+                                    <li>Mathematics 144: <span className="subject-mark">60%</span></li>
+                                    <li>Applied Mathematics 144: <span className="subject-mark">56%</span></li>
+                                    <li>Science in Context 174: <span className="subject-mark">69%</span></li>
                                 </ul>
                             </div>
 
                             <div className="semester-section">
                                 <h5>Semester 3 (2024):</h5>
                                 <ul className="subjects-list">
-                                    <li>Computer Science 214</li>
-                                    <li>Mathematics 214</li>
-                                    <li>Applied Mathematics 214</li>
-                                    <li>Operations Research 214</li>
+                                    <li>Computer Science 214: <span className="subject-mark">71%</span></li>
+                                    <li>Mathematics 214: <span className="subject-mark">53%</span></li>
+                                    <li>Applied Mathematics 214: <span className="subject-mark">77%</span></li>
+                                    <li>Operations Research 214: <span className="subject-mark">64%</span></li>
                                 </ul>
                             </div>
 
                             <div className="semester-section">
                                 <h5>Semester 4 (2024):</h5>
                                 <ul className="subjects-list">
-                                    <li>Computer Science 244</li>
-                                    <li>Mathematics 244</li>
-                                    <li>Applied Mathematics 244</li>
-                                    <li>Operations Research 244</li>
+                                    <li>Computer Science 244: <span className="subject-mark">58%</span></li>
+                                    <li>Mathematics 244: <span className="subject-mark">51%</span></li>
+                                    <li>Applied Mathematics 244: <span className="subject-mark">80%</span></li>
+                                    <li>Operations Research 244: <span className="subject-mark">70%</span></li>
                                 </ul>
                             </div>
 
                             <div className="semester-section">
                                 <h5>Semester 5 (2025):</h5>
                                 <ul className="subjects-list">
-                                    <li>Computer Science 314</li>
-                                    <li>Computer Science 313</li>
-                                    <li>Applied Mathematics 314</li>
-                                    <li>Applied Mathematics 324</li>
+                                    <li>Computer Science 314: <span className="subject-mark">56%</span></li>
+                                    <li>Computer Science 313: <span className="subject-mark">81%</span></li>
+                                    <li>Applied Mathematics 314: <span className="subject-mark">66%</span></li>
+                                    <li>Applied Mathematics 324: <span className="subject-mark">61%</span></li>
                                 </ul>
                             </div>
                         </div>

@@ -205,3 +205,56 @@
         align-self: flex-start;
     }
 }
+
+@media (max-width: 600px) {
+    .experience-page {
+        padding: 0 4px;
+    }
+    .experience-item {
+        padding: 12px;
+        min-height: 60vh;
+    }
+    .experience-header h2 {
+        font-size: 1.2em;
+    }
+    .experience-year {
+        padding: 8px 12px;
+        font-size: 0.95em;
+    }
+    .organization {
+        font-size: 1.1em;
+    }
+    .location {
+        font-size: 0.95em;
+        margin-bottom: 15px;
+    }
+    .experience-details {
+        gap: 12px;
+    }
+    .projects-section h4,
+    .skills-section h4,
+    .leadership-section h4,
+    .responsibilities-section h4,
+    .learning-section h4,
+    .certifications-section h4,
+    .goals-section h4,
+    .longterm-section h4 {
+        font-size: 1em;
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+    }
+    .project-item {
+        padding: 10px;
+    }
+    .projects-list li,
+    .skills-list li,
+    .leadership-list li,
+    .responsibilities-list li,
+    .learning-list li,
+    .certifications-list li,
+    .goals-list li,
+    .longterm-list li {
+        padding: 10px;
+        font-size: 0.95em;
+    }
+}

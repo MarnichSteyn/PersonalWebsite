@@ -240,3 +240,42 @@
 .blog-form button:hover {
     background-color: #0056b3;
 }
+
+@media (max-width: 900px) {
+    .blog-page {
+        padding: 0 8px;
+    }
+    .blog-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .blog-list {
+        gap: 18px;
+    }
+    .blog-post-content {
+        padding: 18px 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .blog-header h1 {
+        font-size: 1.5em;
+    }
+    .add-post-button {
+        padding: 8px 12px;
+        font-size: 0.95em;
+    }
+    .blog-post-content h2 {
+        font-size: 1.1em;
+    }
+    .blog-post-content p {
+        font-size: 0.95em;
+    }
+    .blog-post-image {
+        max-height: 120px;
+    }
+    .blog-form textarea {
+        min-height: 120px;
+    }
+}

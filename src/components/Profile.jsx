@@ -10,8 +10,12 @@ function Profile() {
     const [isEditing, setIsEditing] = useState(false);
 
     const [profilePhoto, setProfilePhoto] = useState(() => {
-        return localStorage.getItem('profilePhoto') || pfp;
-    });
+    const stored = localStorage.getItem('profilePhoto');
+    if (!stored || stored.startsWith('blob:') || stored === 'undefined' || stored === 'null') {
+        return pfp;
+    }
+    return stored;
+});
 
     const [about, setAbout] = useState(() => {
         return localStorage.getItem('about') || "3rd Year B.Sc student at Stellenbosch";

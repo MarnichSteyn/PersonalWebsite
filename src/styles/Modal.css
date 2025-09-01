@@ -34,3 +34,23 @@
     cursor: pointer;
     line-height: 1;
 }
+
+@media (max-width: 900px) {
+    .modal-content {
+        padding: 20px 12px;
+        max-width: 95vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 10px 4px;
+        max-width: 99vw;
+        font-size: 0.95em;
+    }
+    .modal-close-button {
+        top: 8px;
+        right: 8px;
+        font-size: 1.5rem;
+    }
+}
