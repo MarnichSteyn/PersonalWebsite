@@ -8,3 +8,108 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+
+body.dark-mode {
+  background: #181A1B;
+  color: #F3F6FA;
+}
+
+.dark-mode .app,
+.dark-mode #root {
+  background: #181A1B;
+  color: #F3F6FA;
+}
+
+.dark-mode .sidebar,
+.dark-mode .main-content,
+.dark-mode .profile_section,
+.dark-mode .about_intro,
+.dark-mode .subsection,
+.dark-mode .education-item,
+.dark-mode .experience-item,
+.dark-mode .blog-post-item,
+.dark-mode .modal-content,
+.dark-mode .login-form {
+  background: #23272A !important;
+  color: #F3F6FA !important;
+  border-color: #22262A !important;
+}
+
+.dark-mode .nav-link,
+.dark-mode .nav-link.active {
+  color: #F3F6FA !important;
+  border-bottom-color: #2979FF !important;
+}
+
+.dark-mode .navigation {
+  background: #23272A !important;
+  border-bottom-color: #22262A !important;
+}
+
+.dark-mode .add-post-button,
+.dark-mode .login-button,
+.dark-mode .edit-button {
+  background-color: #2979FF !important;
+  color: #fff !important;
+}
+
+.dark-mode .blog-tag {
+  background: #2979FF !important;
+  color: #fff !important;
+}
+
+.dark-mode .distinctions,
+.dark-mode .education-year,
+.dark-mode .experience-year {
+  background: #22262A !important;
+  color: #F3F6FA !important;
+  border: 1px solid #2979FF !important;
+}
+
+.dark-mode .project-item,
+.dark-mode .year-item,
+.dark-mode .achievements-list li,
+.dark-mode .activities-list li,
+.dark-mode .subjects-list li {
+  background: #22262A !important;
+  color: #AEB6C1 !important;
+  border-left-color: #2979FF !important;
+}
+
+.dark-mode .modal-close-button {
+  color: #AEB6C1 !important;
+}
+
+.dark-mode .grade-achievement,
+.dark-mode .yearly-averages,
+.dark-mode .experience-details,
+.dark-mode .project-item,
+.dark-mode .skills-list li,
+.dark-mode .projects-list li,
+.dark-mode .leadership-list li,
+.dark-mode .responsibilities-list li,
+.dark-mode .learning-list li,
+.dark-mode .certifications-list li,
+.dark-mode .goals-list li,
+.dark-mode .longterm-list li {
+  background: #22262A !important;
+  color: #AEB6C1 !important;
+}
+
+.dark-mode .average,
+.dark-mode .year-average {
+  color: #fff !important;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5 {
+  color: #fff !important;
+}
+
+.dark-mode .blog-post-content p,
+.dark-mode .blog-view-modal p {
+    color: #AEB6C1 !important;
+}
