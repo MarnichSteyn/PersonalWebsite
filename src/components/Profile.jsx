@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import '../styles/Profile.css';
-import pfp from '../assets/logangster.JPG'
+import pfp from '../assets/pfp1.jpeg'
 import { useAuth } from "../context/Authentication.jsx";
 import { useNavigate } from "react-router-dom";
 

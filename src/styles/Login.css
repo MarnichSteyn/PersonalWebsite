@@ -1,3 +1,11 @@
+/*
+    Login page styles
+    - .login-container: center the form
+    - .login-form: panel, spacing and shadow
+    - .form-group: inputs and labels
+    - .error-message: validation feedback
+*/
+
 .login-container {
     display: flex;
     justify-content: center;

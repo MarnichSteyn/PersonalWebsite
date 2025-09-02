@@ -19,6 +19,12 @@
     gap: 40px;
 }
 
+/*
+    Education page structure
+    - .education-item: card container for each education entry
+    - .education-header: title, year, and institution meta
+*/
+
 .education-item {
     background: #FFFFFF;
     border-radius: 6px;
@@ -210,6 +216,12 @@
     border-radius: 4px;
     border-left: 4px solid #0366D6;
 }
+
+/*
+    University subjects section
+    - .university-subjects: scrollable list with a custom thin scrollbar
+    - .subject-mark: right aligned marks styling
+*/
 
 .year-label {
     font-weight: 600;

@@ -1,3 +1,10 @@
+/*
+    Page layout
+    - .experience-page: outer container and page padding
+    - .experience-header: title and meta (year, organization)
+    - .experience-item: card-like container for each experience
+*/
+
 .experience-page {
     max-width: 100%;
     margin: 0 auto;
@@ -76,6 +83,12 @@
     height: 100%;
 }
 
+/*
+    Lists and project items
+    - reusable list styles for projects, skills, leadership, etc.
+    - hover interactions and item card styles
+*/
+
 .projects-section h4,
 .skills-section h4,
 .leadership-section h4,
@@ -134,6 +147,7 @@
     gap: 15px; 
 }
 
+
 .projects-list li,
 .skills-list li,
 .leadership-list li,
@@ -178,6 +192,11 @@
 .longterm-list li:hover {
     background: #E1F5FE;
 }
+
+/*
+    Responsive rules
+    - breakpoints for tablet and mobile
+*/
 
 @media (max-width: 1200px) {
     .experience-details {
@@ -258,3 +277,4 @@
         font-size: 0.95em;
     }
 }
+

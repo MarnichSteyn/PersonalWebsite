@@ -1,3 +1,13 @@
+/*
+    Blog page overview
+    Sections:
+    - Header: page title and add-post button
+    - Controls: search, sort, and tag filters (above the list)
+    - Posts: .blog-post-item, .blog-post-content and actions
+    - Modal view: .blog-view-modal used when viewing a single post
+    - Form: .blog-form for create/edit posts
+*/
+
 .blog-page {
     max-width: 1200px;
     margin: 0 auto;

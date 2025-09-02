@@ -1,3 +1,11 @@
+/*
+    Modal component styles
+    - .modal-overlay: backdrop and centering
+    - .modal-content: modal panel, sizing and scroll
+    - .modal-close-button: positioned close control
+    Responsive tweaks below
+*/
+
 .modal-overlay {
     position: fixed;
     top: 0;

@@ -1,3 +1,4 @@
+/* === Layout and Container Styles === */
 .layout {
     display: flex;
     flex-direction: column;
@@ -9,6 +10,7 @@
     flex: 1;
 }
 
+/* === Sidebar Styles === */
 .sidebar {
     width: 400px; 
     background: linear-gradient(135deg, #FFFFFF 0%, #F8F9FA 100%);
@@ -22,6 +24,7 @@
     box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
 }
 
+/* === Main Content Styles === */
 .main-content {
     flex: 1;
     padding: 30px;
@@ -30,6 +33,7 @@
     min-height: 100vh;
 }
 
+/* === Sidebar Content and Scrollbar === */
 .sidebar-content {
     display: flex;
     flex-direction: column;
@@ -54,6 +58,7 @@
     background: #0256c7;
 }
 
+/* === Profile Photo and Edit Overlay === */
 .pfp_container {
     display: flex;
     justify-content: center;
@@ -64,15 +69,6 @@
     height: 180px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.sidebar-footer {
-    margin-top: auto;
-    padding-top: 20px;
-    border-top: 1px solid #e1e4e8;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .profile_photo {
@@ -120,6 +116,16 @@
    display: none;
 }
 
+/* === Sidebar Footer and Buttons === */
+.sidebar-footer {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #e1e4e8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .login-button, .edit-button {
     width: 100%;
     padding: 12px;
@@ -148,16 +154,7 @@
     background-color: #218838;
 }
 
-.profile_photo {
-    width: 180px; 
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #0366D6;
-    box-shadow: 0 4px 12px rgba(3, 102, 214, 0.15);
-}
-
-
+/* === Profile Section and Subsections === */
 .profile_section h2 {
     text-align: center;
     border-bottom: 2px solid #0366D6;
@@ -222,6 +219,7 @@
     font-size: 1em;
 }
 
+/* === Edit Inputs and Lists === */
 .edit-input, .edit-textarea {
     width: 100%;
     padding: 10px;
@@ -246,6 +244,7 @@
     gap: 8px;
 }
 
+/* === Responsive Styles === */
 @media (max-width: 900px) {
     .content-container {
         flex-direction: column;
@@ -262,7 +261,6 @@
         padding: 20px;
     }
 }
-
 
 @media (max-width: 600px) {
     .sidebar {
