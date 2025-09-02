@@ -104,6 +104,7 @@ body.dark-mode {
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode h3,
+.dark-mode .year-label,
 .dark-mode h4,
 .dark-mode h5 {
   color: #fff !important;

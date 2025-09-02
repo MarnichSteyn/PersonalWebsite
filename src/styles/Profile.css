@@ -36,6 +36,22 @@
     gap: 30px;
     overflow-y: auto;
     flex-grow: 1;
+    padding-right: 16px;
+}
+
+.sidebar-content::-webkit-scrollbar {
+    width: 6px;
+}
+.sidebar-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+.sidebar-content::-webkit-scrollbar-thumb {
+    background: #0366D6;
+    border-radius: 4px;
+}
+.sidebar-content::-webkit-scrollbar-thumb:hover {
+    background: #0256c7;
 }
 
 .pfp_container {
